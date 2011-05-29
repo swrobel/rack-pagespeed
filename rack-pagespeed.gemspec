@@ -112,10 +112,10 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<nokogiri>, ["= 1.4.4"])
-      s.add_runtime_dependency(%q<rack>, ["= 1.2.1"])
+      s.add_runtime_dependency(%q<rack>, ["= 1.2.2"])
       s.add_runtime_dependency(%q<jsmin>, ["= 1.0.1"])
       s.add_runtime_dependency(%q<nokogiri>, ["= 1.4.4"])
-      s.add_runtime_dependency(%q<rack>, ["= 1.2.1"])
+      s.add_runtime_dependency(%q<rack>, ["= 1.2.2"])
       s.add_runtime_dependency(%q<memcached>, ["= 1.0.2"])
       s.add_runtime_dependency(%q<mime-types>, ["= 1.16"])
       s.add_runtime_dependency(%q<jsmin>, ["= 1.0.1"])
@@ -124,10 +124,10 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<capybara>, ["= 0.4.0"])
     else
       s.add_dependency(%q<nokogiri>, ["= 1.4.4"])
-      s.add_dependency(%q<rack>, ["= 1.2.1"])
+      s.add_dependency(%q<rack>, ["= 1.2.2"])
       s.add_dependency(%q<jsmin>, ["= 1.0.1"])
       s.add_dependency(%q<nokogiri>, ["= 1.4.4"])
-      s.add_dependency(%q<rack>, ["= 1.2.1"])
+      s.add_dependency(%q<rack>, ["= 1.2.2"])
       s.add_dependency(%q<memcached>, ["= 1.0.2"])
       s.add_dependency(%q<mime-types>, ["= 1.16"])
       s.add_dependency(%q<jsmin>, ["= 1.0.1"])
@@ -137,10 +137,10 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<nokogiri>, ["= 1.4.4"])
-    s.add_dependency(%q<rack>, ["= 1.2.1"])
+    s.add_dependency(%q<rack>, ["= 1.2.2"])
     s.add_dependency(%q<jsmin>, ["= 1.0.1"])
     s.add_dependency(%q<nokogiri>, ["= 1.4.4"])
-    s.add_dependency(%q<rack>, ["= 1.2.1"])
+    s.add_dependency(%q<rack>, ["= 1.2.2"])
     s.add_dependency(%q<memcached>, ["= 1.0.2"])
     s.add_dependency(%q<mime-types>, ["= 1.16"])
     s.add_dependency(%q<jsmin>, ["= 1.0.1"])
